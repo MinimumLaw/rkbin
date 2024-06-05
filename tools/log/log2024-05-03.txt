@@ -1,0 +1,12 @@
+16:19:51 	is_sparse_image failed, err=2, can't open file: RK3568-RHOS_EFI.img
+
+16:19:51 	is_ubifs_image failed, err=2, can't open file: RK3568-RHOS_EFI.img
+
+17:42:18 	is_sparse_image failed, err=2, can't open file: RK3568-RHOS_EFI.img
+
+17:42:18 	is_ubifs_image failed, err=2, can't open file: RK3568-RHOS_EFI.img
+
+18:20:59 	is_sparse_image failed, err=2, can't open file: RK3568-RHOS_EFI.img
+
+18:20:59 	is_ubifs_image failed, err=2, can't open file: RK3568-RHOS_EFI.img
+

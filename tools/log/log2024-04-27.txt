@@ -1,0 +1,8 @@
+13:41:36 	is_sparse_image failed, err=2, can't open file: u-boot-rockchip.bin
+
+13:41:36 	is_ubifs_image failed, err=2, can't open file: u-boot-rockchip.bin
+
+13:43:39 	is_sparse_image failed, err=2, can't open file: u-boot-rockchip.bin
+
+13:43:39 	is_ubifs_image failed, err=2, can't open file: u-boot-rockchip.bin
+

@@ -1,0 +1,46 @@
+15:29:38 	Upgrade Tool v1.54
+
+15:29:38 	Current process in /cimc/build/rkbin/tools
+15:29:38 	Using /cimc/build/rkbin/tools/config.ini
+15:29:44 	Upgrade Tool v1.54
+
+15:29:44 	Current process in /cimc/build/rkbin/tools
+15:29:44 	Using /cimc/build/rkbin/tools/config.ini
+15:29:59 	Upgrade Tool v1.54
+
+15:29:59 	Current process in /cimc/build/rkbin/tools
+15:29:59 	Using /cimc/build/rkbin/tools/config.ini
+15:30:19 	Upgrade Tool v1.54
+
+15:30:19 	Current process in /cimc/build/rkbin/tools
+15:30:19 	Using /cimc/build/rkbin/tools/config.ini
+15:30:29 	Upgrade Tool v1.54
+
+15:30:29 	Current process in /cimc/build/rkbin/tools
+15:30:29 	Using /cimc/build/rkbin/tools/config.ini
+15:30:47 	Upgrade Tool v1.54
+
+15:30:47 	Current process in /cimc/build/rkbin/tools
+15:30:47 	Using /cimc/build/rkbin/tools/config.ini
+15:30:47 	get_parameter_loader->Check parameter tag failed!
+15:30:47 	get_parameter_device-->get_parameter_loader size failed
+15:31:04 	Upgrade Tool v1.54
+
+15:31:04 	Current process in /cimc/build/rkbin/tools
+15:31:04 	Using /cimc/build/rkbin/tools/config.ini
+15:31:09 	Upgrade Tool v1.54
+
+15:31:09 	Current process in /cimc/build/rkbin/tools
+15:31:09 	Using /cimc/build/rkbin/tools/config.ini
+15:31:33 	Upgrade Tool v1.54
+
+15:31:33 	Current process in /cimc/build/rkbin/tools
+15:31:33 	Using /cimc/build/rkbin/tools/config.ini
+15:32:11 	Upgrade Tool v1.54
+
+15:32:11 	Current process in /cimc/build/rkbin/tools
+15:32:11 	Using /cimc/build/rkbin/tools/config.ini
+15:32:48 	Upgrade Tool v1.54
+
+15:32:48 	Current process in /cimc/build/rkbin/tools
+15:32:48 	Using /cimc/build/rkbin/tools/config.ini
