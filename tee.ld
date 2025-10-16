@@ -8,7 +8,7 @@
 start_addr = 0x08400000;
 
 TARGET(binary)
-INPUT( ./bin/rk35/rk3568_bl32_v2.11.bin )
+INPUT( ./bin/rk35/rk3568_bl32_v2.15.bin )
 
 OUTPUT_FORMAT(elf64-littleaarch64)
 ENTRY(start_addr)
@@ -21,6 +21,6 @@ MEMORY
 SECTIONS
 {
     .data : {
-        ./bin/rk35/rk3568_bl32_v2.11.bin
+        ./bin/rk35/rk3568_bl32_v2.15.bin
     } > RAM
 }

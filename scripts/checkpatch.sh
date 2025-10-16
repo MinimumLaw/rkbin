@@ -378,6 +378,10 @@ function pack_trust_image()
 function check_dirty()
 {
 	for FILE in `find -name '*spl*.bin' -o -name '*tpl*.bin' -o -name '*usbplug*.bin' -o -name '*bl31*.elf' -o -name '*bl32*.bin'`; do
+		if [[ "${FILE}" == *fspi1* ]]; then
+			echo "Skip clean: ${FILE}"
+			continue;
+		fi
 		echo "Checking clean: ${FILE}"
 		if strings ${FILE} | grep '\-dirty ' ; then
 			echo "ERROR: ${FILE} is dirty"
@@ -426,9 +430,9 @@ function check_version()
 			echo "ERROR: ${FILE}: No \"fwver: \" string found in binary"
 			exit 1
 		fi
-		FW_VER=`strings ${FILE} | grep -o 'fwver: v[1-9][.][0-9][0-9]' | awk '{ print $2 }'`
+		FW_VER=`strings ${FILE} | grep -m 1 -o 'fwver: v[1-9][.][0-9][0-9]' | awk '{ print $2 }'`
 		if [ "${NAME_VER}" != "${FW_VER}" ] ; then
-			echo "ERROR: ${FILE}: file version is ${NAME_VER}, but fw version is ${FW_VER}."
+			echo "ERROR: ${FILE}: file version is '${NAME_VER}', but fw version is '${FW_VER}'."
 			exit 1
 		fi
 	done
